@@ -2,6 +2,12 @@
     box-sizing: border-box;
 }
 
+#wrapper {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 header {
     background-color: beige;
     font-family: serif;
@@ -9,7 +15,6 @@ header {
     padding: 35px;
     color: rgb(188, 188, 108);
     max-width: 600px;
-    max-height: 300px;
     margin: 0 auto;
     border-radius: 10px;
 }
@@ -33,7 +38,12 @@ div h2 {
     text-align: center;
 }
 
-
+#image {
+    background-image: url("husky2.jpg");
+    background-size: cover;
+    max-height: 300px;
+    max-width: 300px;
+}
 
 main {
     text-align: center;
@@ -46,4 +56,10 @@ main h3 {
 
 main p {
     font-family: serif;
+}
+
+footer {
+    border-top: 1px solid black;
+    text-align: center;
+    padding:
 }
