@@ -39,19 +39,23 @@ div h2 {
 }
 
 #image {
-    background-image: url("husky2.jpg");
+
     height: 300px;
     width: 300px;
     overflow: hidden;
     margin: 0 auto;
     border-radius: 50%;
     border: 1px solid black;
-    background-position: cover;
     background-repeat: no-repeat;
-    max-width: 50%;
 }
 
-main {}
+main img {
+    max-width: 100%;
+}
+
+main {
+    letter-spacing: 1.4;
+}
 
 main h3 {
     font-weight: bold;
